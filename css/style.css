@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #dddddd url('../img/grain.png');
+}
+
+#container {
+    margin: 32px auto;
+    width: 1024px;
+    background: #eeeeee url('../img/grain.png');
+    box-shadow: 0 0 16px #666666;
+}
+
+header {
+    padding: 8px;
+    min-height: 36px;
+    border-bottom: 1px dotted #000000;
+    /*position: relative;*/
+}
+
+h1 {
+
+}
+
+nav {
+    list-style: none;
+}
+
+nav li {
+    margin: 0 8px;
+    display: inline-block;
+}
+
+#nav {
+    float: left;
+}
+
+#auth {
+    /*position: absolute;*/
+    /*top: 8px;*/
+    /*right: 8px;*/
+    float: right;
+}
+
+#main {
+    padding: 16px;
+}
+
+footer {
+    padding: 8px 16px;
+    border-top: 1px dotted #000000;
+}
+
+.clear {
+    clear: both;
+}
+
+/* FORM */
+form[action] {
+    width: 512px;
+    margin: auto;
+    padding: 16px;
+    box-shadow: 0 0 12px #666666;
+}
+fieldset {
+    padding: 16px;
+    margin: 0 0 8px;
+}
+legend {
+    font-weight: bold;
+}
+fieldset ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+fieldset ul li {
+    margin: 6px 0;
+    min-height: 26px;
+    position: relative;
+}
+fieldset input[type=text],
+fieldset input[type=password],
+fieldset input[type=email],
+fieldset input[type=date] {
+    position: absolute;
+    left: 108px;
+    width: 320px;
+    height: 24px;
+    padding: 2px;
+    border-radius: 2px;
+    border: 1px solid #888888;
+    background-color: #f8f8f8;
+}
+input[type=submit] {
+    width: 128px;
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid #888888;
+    background: linear-gradient(0deg, #aaaaaa, #eeeeee);
+}
+/*:valid {*/
+    /*box-shadow: 0 0 2px #00aa00;*/
+/*}*/
+fieldset .shift108 {
+    position: absolute;
+    left: 108px;
+}
+fieldset .shift200 {
+    position: absolute;
+    left: 200px;
+}
+fieldset textarea {
+    resize: none;
+}
+
+/* TABLE */
+table {
+    max-width: 100%;
+}
+thead th, thead td, tfoot th, tfoot td {
+    padding: 2px;
+    border: 1px solid #000000;
+}
+tbody th, tbody td {
+    padding: 2px;
+    border: 1px solid #000000;
+}
+tbody th {
+    text-align: left;
+}
+thead {
+    background-color: #4070a0;
+}
+tfoot {
+    background-color: #4070a0;
+    font-size: 10px;
+}
+tbody tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+tbody tr:nth-child(even) {
+    background-color: #cccccc;
+}
+tbody tr:hover {
+    background-color: #90b0ff;
+    background: -webkit-linear-gradient(0deg, rgb(64, 112, 160), rgb(144, 176, 255), rgb(64, 112, 160));
+    background: linear-gradient(90deg, rgb(64, 112, 160), rgb(144, 176, 255), rgb(64, 112, 160));
+}
+
+
+.pfeil_oben {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid rgba(0,0,0,0);
+    border-bottom: 10px solid #000;
+    /*position: absolute;*/
+}
+.pfeil_unten {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid rgba(0,0,0,0);
+    border-top: 10px solid #000;
+    /*position: absolute;*/
+}
